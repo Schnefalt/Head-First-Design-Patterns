@@ -1,0 +1,11 @@
+/home/stefan/devplay/hfdp/ch1duck/obj/Debug/netcoreapp2.2/ch1duck.csprojAssemblyReference.cache
+/home/stefan/devplay/hfdp/ch1duck/obj/Debug/netcoreapp2.2/ch1duck.csproj.CoreCompileInputs.cache
+/home/stefan/devplay/hfdp/ch1duck/obj/Debug/netcoreapp2.2/ch1duck.AssemblyInfoInputs.cache
+/home/stefan/devplay/hfdp/ch1duck/obj/Debug/netcoreapp2.2/ch1duck.AssemblyInfo.cs
+/home/stefan/devplay/hfdp/ch1duck/bin/Debug/netcoreapp2.2/ch1duck.deps.json
+/home/stefan/devplay/hfdp/ch1duck/bin/Debug/netcoreapp2.2/ch1duck.runtimeconfig.json
+/home/stefan/devplay/hfdp/ch1duck/bin/Debug/netcoreapp2.2/ch1duck.runtimeconfig.dev.json
+/home/stefan/devplay/hfdp/ch1duck/bin/Debug/netcoreapp2.2/ch1duck.dll
+/home/stefan/devplay/hfdp/ch1duck/bin/Debug/netcoreapp2.2/ch1duck.pdb
+/home/stefan/devplay/hfdp/ch1duck/obj/Debug/netcoreapp2.2/ch1duck.dll
+/home/stefan/devplay/hfdp/ch1duck/obj/Debug/netcoreapp2.2/ch1duck.pdb
