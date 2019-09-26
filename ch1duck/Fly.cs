@@ -12,9 +12,13 @@ namespace ch1duck
         public void Fly() => System.Console.WriteLine("I'm, flying!!");
     }
 
-        public class FlyNoWay : IFlyBehavior
+    public class FlyNoWay : IFlyBehavior
     {
         public void Fly() => System.Console.WriteLine("I can't fly...");
     }
 
+    public class FlyRocketPowered : IFlyBehavior
+    {
+        public void Fly() => System.Console.WriteLine("I'm a rockt duck!");
+    }
 }

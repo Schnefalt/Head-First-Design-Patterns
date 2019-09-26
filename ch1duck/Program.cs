@@ -8,9 +8,14 @@ namespace ch1duck
         {
             Duck mallard = new Mallard(
                 new FlyWithWings(), 
-                new MuteQuack());
+                new NormalQuack());
 
             mallard.Display();
+            mallard.PerformFly();
+            mallard.PerformQuack();
+
+            mallard.SetFlyBehavior(new FlyRocketPowered());
+            mallard.SetQuackBehavior(new MuteQuack()); // In space, no one can hear you quack.
             mallard.PerformFly();
             mallard.PerformQuack();
 
