@@ -35,7 +35,7 @@ public class Whip : IBeverage
         beverage = b;
     }
 
-    public double GetCost() => beverage.GetCost() + .10;
+    public double GetCost() => beverage.GetCost() + .11;
 
     public string GetDescription() => beverage.GetDescription() + ", Whip";
 }

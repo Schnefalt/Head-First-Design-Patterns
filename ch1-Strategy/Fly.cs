@@ -9,7 +9,7 @@ namespace ch1duck
 
     public class FlyWithWings : IFlyBehavior
     {
-        public void Fly() => System.Console.WriteLine("I'm, flying!!");
+        public void Fly() => System.Console.WriteLine("I'm flying!!");
     }
 
     public class FlyNoWay : IFlyBehavior
@@ -19,6 +19,6 @@ namespace ch1duck
 
     public class FlyRocketPowered : IFlyBehavior
     {
-        public void Fly() => System.Console.WriteLine("I'm a rockt duck!");
+        public void Fly() => System.Console.WriteLine("I'm a rocket duck!");
     }
 }

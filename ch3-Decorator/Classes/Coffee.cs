@@ -9,5 +9,5 @@ public class Decaf : IBeverage
 {
     public double GetCost() => 1.05;
 
-    public string GetDescription() => "Defaf";
+    public string GetDescription() => "Decaf";
 }

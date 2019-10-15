@@ -12,7 +12,7 @@ namespace ch1duck
         public void Quack() => System.Console.WriteLine("Quack!!");
     }
 
-        public class MuteQuack : IQuackBehavior
+    public class MuteQuack : IQuackBehavior
     {
         public void Quack() => System.Console.WriteLine("<silence>");
     }
