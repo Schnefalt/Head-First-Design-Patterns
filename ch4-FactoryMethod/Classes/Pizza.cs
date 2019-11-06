@@ -20,7 +20,7 @@ public abstract class Pizza
     }
 
     public void Bake() => System.Console.WriteLine("Bake for 25 minutes at 350.");
-    public void Cut() => System.Console.WriteLine("Cutting the pizza into diagonal slices.");
+    public virtual void Cut() => System.Console.WriteLine("Cutting the pizza into diagonal slices.");
     public void Box() => System.Console.WriteLine("Place pizza in official PizzaStore box.");
     public string GetName() => name;
 }
@@ -37,6 +37,22 @@ public class NYStyleCheesePizza : Pizza
     }
 }
 
+public class NYStyleVeggiePizza : Pizza
+{
+    public NYStyleVeggiePizza()
+    {
+        name = "NY Style Veggie Pizza";
+        dough = "Thin Crust Dough";
+        sauce = "Marinara Sauce";
+
+        toppings.Add("Grated  Reggiano Cheese");
+        toppings.Add("Mushrooms");
+        toppings.Add("Onion");
+        toppings.Add("Spinach");
+    }
+}
+
+
 public class ChicagoStyleCheesePizza : Pizza
 {
     public ChicagoStyleCheesePizza()
@@ -46,5 +62,25 @@ public class ChicagoStyleCheesePizza : Pizza
         sauce = "Plum Tomato Sauce";
 
         toppings.Add("Shredded Mozzarella Cheese");
+    }
+
+    public override void Cut()
+    {
+        System.Console.WriteLine("Cutting the pizza into square slices.");
+    }
+}
+
+public class ChicagoStyleVeggiePizza : Pizza
+{
+    public ChicagoStyleVeggiePizza()
+    {
+        name = "Chicago Style Deep Dish Veggie Pizza";
+        dough = "Extra Thick Crust Dough";
+        sauce = "Plum Tomato Sauce";
+
+        toppings.Add("Shredded Mozzarella Cheese");
+        toppings.Add("Mushrooms");
+        toppings.Add("Onion");
+        toppings.Add("Broccoli");
     }
 }
