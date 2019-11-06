@@ -20,6 +20,8 @@ public abstract class Pizza
     }
 
     public void Bake() => System.Console.WriteLine("Bake for 25 minutes at 350.");
+
+    // This one needs to be overridden, hence virtual:
     public virtual void Cut() => System.Console.WriteLine("Cutting the pizza into diagonal slices.");
     public void Box() => System.Console.WriteLine("Place pizza in official PizzaStore box.");
     public string GetName() => name;
