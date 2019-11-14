@@ -24,7 +24,7 @@ public interface ICheese
 }
 public interface IVeggies
 {
-    List<string> ToList();
+    string ToString();
 }
 public interface IPepperoni
 {
