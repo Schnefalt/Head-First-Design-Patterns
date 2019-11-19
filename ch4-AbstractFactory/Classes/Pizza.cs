@@ -18,6 +18,7 @@ public abstract class Pizza
     public void Box() => System.Console.WriteLine("Place pizza in official PizzaStore box");
     public void SetName(string n) => name = n;
     public string GetName() => name;
+    
     public override string ToString()
     {
         var sb = new StringBuilder();
