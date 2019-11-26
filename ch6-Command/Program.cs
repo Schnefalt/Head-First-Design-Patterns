@@ -25,14 +25,29 @@ namespace ch6_Command
 
             remote.OnButtonPushed(0);
             remote.OnButtonPushed(1);
-            remote.OnButtonPushed(2);
-            remote.OnButtonPushed(2);
-            remote.OnButtonPushed(2);
-            remote.OnButtonPushed(2);
+            
+            System.Console.WriteLine("\n--- Undo once:");
+            remote.UndoButtonPushed();
+            System.Console.WriteLine();
 
+            remote.OnButtonPushed(2);
+            remote.OnButtonPushed(2);
+            remote.OnButtonPushed(2);
+            remote.OnButtonPushed(2);
             remote.OffButtonPushed(2);
             remote.OffButtonPushed(1);
             remote.OffButtonPushed(0);
+
+            System.Console.WriteLine("\n--- Undo fest:");
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
+            remote.UndoButtonPushed();
         }
     }
 }
