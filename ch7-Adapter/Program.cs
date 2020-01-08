@@ -8,7 +8,7 @@ namespace ch7_Adapter
         {
             MallardDuck md = new MallardDuck();
             WildTurkey wd  = new WildTurkey();
-            IDuck turkeyAdapter = new TurkeyAdapter(wd);
+            IDuck ta = new TurkeyAdapter(wd);
 
             System.Console.WriteLine("\r\nMallard Duck:");
             md.Quack();
@@ -19,8 +19,8 @@ namespace ch7_Adapter
             wd.Fly();
 
             System.Console.WriteLine("\r\nTurkey Adapter:");
-            turkeyAdapter.Quack();
-            turkeyAdapter.Fly();
+            ta.Quack();
+            ta.Fly();
 
             Console.ReadKey();
         }
