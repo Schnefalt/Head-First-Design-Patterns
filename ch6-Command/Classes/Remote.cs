@@ -46,7 +46,8 @@ public class RemoteControl
         {
             command.Undo();
         }
-        else{
+        else
+        {
             System.Console.WriteLine("\n** Nothing to Undo **\n");
         }
     }
